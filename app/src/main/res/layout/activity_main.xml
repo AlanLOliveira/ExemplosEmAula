@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a29088"
+    android:orientation="vertical"
+    tools:context=".ui.MeuProjeto"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#808080"
+        android:ems="10"
+        android:gravity="center"
+        android:text="@string/tela_de_login"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="2dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="@string/meu_primeiro_login"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="32dp">
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/digite_aqui_seu_email3"
+            android:inputType="textEmailAddress" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:background="@color/white"
+        android:text="@string/login"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-150dp"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:hint="Senha"
+
+        />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+

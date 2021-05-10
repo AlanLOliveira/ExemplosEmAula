@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="tela_de_login">Tela de Login</string>
+    <string name="meu_primeiro_login">Meu Primeiro Login</string>
+    <string name="login">LOGIN</string>
+    <string name="meu_segundo_login">Meu segundo login</string>
+    <string name="login2">LOGIN2</string>
+    <string name="meu_primeiro_app2">Meu primeiro APP2</string>
+    <string name="meu_primeiro_app">Meu primeiro APP</string>
+    <string name="digite_aqui_seu_email3">Digite aqui seu email</string>
+    <string name="minha_tela_principal">Minha Tela Principal</string>
+</resources>
